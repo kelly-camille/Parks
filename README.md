@@ -95,7 +95,7 @@ Then run the following command in the console
 ## API Documentation
 Using postman:
 
-#### HTTP Request Structure
+#### Endpoints
 ```
 GET /api/parks
 POST /api/Parks
