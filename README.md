@@ -93,10 +93,7 @@ Then run the following command in the console
   ``dotnet run``
 
 ## API Documentation
-Explore the API endpoints in Postman or a browser. You will not be able to utilize authentication in a browser.
-
-
-
+Using postman:
 
 #### HTTP Request Structure
 ```
@@ -123,22 +120,14 @@ Body--
 ```
 https://localhost:5000/api/Parks/1
 ```
-#### Sample JSON Response
-```
-{
-  "animalId": 1,
-  "name": "enter name here",
-  "state": "enter state here",
-  "type": "state or national here",
-}
-```
+
 
 ## Known Bugs
 
-* _Mo known bugs_
+* _currently a bug with register route in authorization_
 
 ## License
 
 [MIT](/LICENSE)
 
-Copyright (c) 2022 Tiberius Lockett
+Copyright (c) 2022 Kelly Bruce

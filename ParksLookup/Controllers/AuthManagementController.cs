@@ -13,6 +13,7 @@ using System.Security.Claims;
 
 [Route("api/[controller]")] // api/authmanagement
 [ApiController]
+[Produces("application/json")]
 public class AuthManagementController : ControllerBase
 {
     private readonly UserManager<IdentityUser> _userManager;
